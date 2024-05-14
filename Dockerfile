@@ -32,5 +32,6 @@ RUN ./build_rat_project.sh rat-common
 RUN ./build_rat_project.sh distmesh-cpp
 RUN ./build_rat_project.sh materials-cpp
 RUN ./build_rat_project.sh rat-mlfmm
+RUN ./build_rat_project.sh rat-math
 RUN ./build_rat_project.sh rat-models
 RUN ./build_rat_project.sh rat-nl
