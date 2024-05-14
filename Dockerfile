@@ -9,6 +9,7 @@ RUN apt-get -y update \
   && apt-get install -y --no-install-recommends \
     git \
     gcc \
+    g++ \
     cmake \
     make \
     liblapack-dev \
