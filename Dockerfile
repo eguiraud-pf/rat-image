@@ -33,5 +33,6 @@ RUN ./build_rat_project.sh distmesh-cpp
 RUN ./build_rat_project.sh materials-cpp
 RUN ./build_rat_project.sh rat-mlfmm
 RUN ./build_rat_project.sh rat-math
+RUN apt-get install -y libnlopt-dev  # TODO: move up with the other packages
 RUN ./build_rat_project.sh rat-models
 RUN ./build_rat_project.sh rat-nl
